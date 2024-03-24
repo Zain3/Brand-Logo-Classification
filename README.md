@@ -28,9 +28,9 @@ You can download the training data from the Canvas page:
 
 ### Dependencies
 
-1. Create a new conda environment `the-regularizers` with the following dependencies.
+1. Create a new conda environment `the-regularizer` with the following dependencies.
 
-`conda create -n the-regularizers`
+`conda create -n the-regularizer`
 
 `conda install anaconda`
 
@@ -43,11 +43,11 @@ To open Jupyter Notebook and see the files, in the conda terminal, while the env
 
 1. Clone the repo. In the regular terminal, type:
 
-git clone 'https://github.com/UF-FundMachineLearning-Summer23/regularizers-finalproject.git'
+git clone 'https://github.com/Zain3/Brand-Logo-Classification.git](https://github.com/Zain3/Brand-Logo-Classification.git'
 
 2. Setup and activate environment. In the conda terminal, type:
 
-`conda activate the-regularizers`
+`conda activate the-regularizer`
 
 3. Next, cd to whichever directory you cloned the repo, **within the conda terminal**.
 
@@ -70,6 +70,5 @@ If you trained and saved a model with different name then use: `python Test.py -
 
 
 ## Authors
-1. Zain Nasrullah [email](z.nasrullah@ufl.edu)
-2. Robert Noble [email](nobler@ufl.edu)
-3. Eduardo Luca [email](eduard.luca@ufl.edu)
+  Zain Nasrullah [email](z.nasrullah@ufl.edu)
+
