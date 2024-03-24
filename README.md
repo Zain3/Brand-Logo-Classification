@@ -43,7 +43,7 @@ To open Jupyter Notebook and see the files, in the conda terminal, while the env
 
 1. Clone the repo. In the regular terminal, type:
 
-git clone 'https://github.com/Zain3/Brand-Logo-Classification.git](https://github.com/Zain3/Brand-Logo-Classification.git'
+git clone 'https://github.com/Zain3/Brand-Logo-Classification.git'
 
 2. Setup and activate environment. In the conda terminal, type:
 
