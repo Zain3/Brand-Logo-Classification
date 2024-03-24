@@ -1,18 +1,14 @@
-# regularizers-finalproject
-
-
 
 # Final Project
 
-This is a **group assignment**.
 
 ## About the Project
 
-The goal of this project was to create our own Machine Learning Model to correctly classify different logos with greater than 90% accuracy. The data was to be split in 1) Train and 2) Test data. Among the Train data, this was to be split into a 1) Train and 2) Validation dataset. The ML model that we decided to stick with is using Transfer Learning using ResNet 50, a model for classification that Tensorflow natively provides, but we pruned off the top layer and adding our own layers in.
+The goal of this project was to create my own Machine Learning Model to correctly classify different logos with greater than 90% accuracy. The data was to be split in 1) Train and 2) Test data. Among the Train data, this was to be split into a 1) Train and 2) Validation dataset. The ML model that I decided to stick with is using Transfer Learning using ResNet 50, a model for classification that Tensorflow natively provides, but I pruned off the top layer and adding my own layers in.
 
 The model is trained using the Train and Validation data. Once all the weights of the Neural Network have been set, and the model has been trained, the model is exported to a .h5 file, and this .h5 file is imported by the Test set to test the model on.
 
-The MAIN way in which we trained our model, and the only way we ensured it didn't overfit is by AUGMENTING the data (see the train.py file)- using our original dataset, we changed images (rotated, flipped, changed brightness, contrast, etc.), to give a more variety of images, and to more emulate real world images, and did this multiple times, making our train dataset 4X as large. The ML model we used got a way higher accuracy and way closer train/validation accuracy, showing it was no longer overfitting and that it could generalize well to new, unseen data.
+The MAIN way in which I trained the model, and the only way I ensured it didn't overfit is by AUGMENTING the data (see the train.py file)- using our original dataset, I changed images (rotated, flipped, changed brightness, contrast, etc.), to give a more variety of images, and to more emulate real world images, and did this multiple times, making our train dataset 4X as large. The ML model I used got a way higher accuracy and way closer train/validation accuracy, showing it was no longer overfitting and that it could generalize well to new, unseen data.
 
 ## Code Implementation & Technical Report
 
