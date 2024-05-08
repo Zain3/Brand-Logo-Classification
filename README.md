@@ -4,7 +4,7 @@
 
 ## About the Project
 
-The goal of this project was to create my own Machine Learning Model to correctly classify different logos with greater than 90% accuracy. The data was to be split in 1) Train and 2) Test data. Among the Train data, this was to be split into a 1) Train and 2) Validation dataset. The ML model that I decided to stick with is using Transfer Learning using ResNet 50, a model for classification that Tensorflow natively provides, but I pruned off the top layer and adding my own layers in.
+The goal of this project was to create my own Machine Learning Model to correctly classify different logos with greater than 90% accuracy. The data was to be split in 1) Train and 2) Test data. Among the Train data, this was to be split into a 1) Train and 2) Validation dataset. The ML model that I decided to stick with is using Transfer Learning using ResNet-50, a model for classification that Tensorflow natively provides, but I pruned off the top layer and adding my own layers in.
 
 The model is trained using the Train and Validation data. Once all the weights of the Neural Network have been set, and the model has been trained, the model is exported to a .h5 file, and this .h5 file is imported by the Test set to test the model on.
 
